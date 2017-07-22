@@ -14,23 +14,26 @@
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container" >
-                <a href="{{ route('/')}}" class="navbar-brand">Eloquent ORM</a>
+                <a href="{{ url('/') }}" class="navbar-brand">Eloquent ORM</a>
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="{{ route('/')}}">Home</a>
+                        <a href="{{ url('/') }}">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Consultas Elocuent
+                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="{{ url('all')}}">Todos los usuarios (ALL)</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="jumbotron">
-            <div class="container">
-            <h1>Curso Eloquent ORM</h1>
-            <p>Texto</p>
-            </div>
-        </div>
-        <div class="container">
+        
             @yield('content');
-        </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->

@@ -15,3 +15,4 @@ use Faker\Factory as Faker;
 
 Route::get('/', 'PagesController@home');
 
+Route::get('all', 'QueryController@getAll');
