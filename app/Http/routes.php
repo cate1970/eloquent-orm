@@ -18,3 +18,6 @@ Route::get('/', 'PagesController@home');
 Route::get('/all', 'QueryController@eloquentAll');
 
 Route::get('/get/{gender}', 'QueryController@eloquentGet');
+
+
+Route::get('/get-custom', 'QueryController@eloquentGetCustom');
