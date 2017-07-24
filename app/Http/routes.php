@@ -19,5 +19,6 @@ Route::get('/all', 'QueryController@eloquentAll');
 
 Route::get('/get/{gender}', 'QueryController@eloquentGet');
 
-
 Route::get('/get-custom', 'QueryController@eloquentGetCustom');
+
+Route::get('delete/{id}', 'QueryController@eloquentDelete');
