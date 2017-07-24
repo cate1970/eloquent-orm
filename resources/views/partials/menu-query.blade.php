@@ -20,6 +20,9 @@
         </li>   
         <li>
             <a href="{{ url('first-last') }}">First Last</a>
-        </li>   
+        </li> 
+        <li>
+            <a href="{{ url('paginate') }}">Eloquent Paginate</a>
+        </li>    
     </ul>
 </li>
