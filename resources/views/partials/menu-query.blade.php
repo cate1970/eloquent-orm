@@ -17,6 +17,9 @@
         </li>
         <li>
             <a href="{{ url('lists') }}">Lista de usuarios para Select (LISTS)</a>
-        </li>        
+        </li>   
+        <li>
+            <a href="{{ url('first-last') }}">First Last</a>
+        </li>   
     </ul>
 </li>

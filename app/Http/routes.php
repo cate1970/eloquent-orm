@@ -24,3 +24,5 @@ Route::get('/get-custom', 'QueryController@eloquentGetCustom');
 Route::get('delete/{id}', 'QueryController@eloquentDelete');
 
 Route::get('lists', 'QueryController@eloquentLists');
+
+Route::get('first-last', 'QueryController@eloquentFirstLast');
