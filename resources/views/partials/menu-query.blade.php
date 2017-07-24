@@ -5,9 +5,18 @@
     <ul class="dropdown-menu">
         <li>
             <a href="{{ url('all')}}">Todos los usuarios (ALL)</a>
+        </li>  
+        <li>         
             <a href="{{ url('get', 'f') }}">Lista de usuarios (GET)</a>
+        </li>  
+        <li>           
             <a href="{{ url('get', 'm') }}">Lista de usuarios (GET)</a>
+        </li>
+        <li>
             <a href="{{ url('get-custom') }}">Lista de usuarios (GET con Array)</a>
         </li>
+        <li>
+            <a href="{{ url('lists') }}">Lista de usuarios para Select (LISTS)</a>
+        </li>        
     </ul>
 </li>
